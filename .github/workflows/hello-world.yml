@@ -4,7 +4,7 @@ on: push
 
 job: 
   name: hello-job
-  run: ubuntu-latest
+  use: ubuntu-latest
 
   step: 
     name: Echo text
